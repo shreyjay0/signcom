@@ -1,0 +1,51 @@
+[data-anchor="signcom_title"] {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+[data-testid="stImage"] > img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+[data-testid="stSidebar"] > div {
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+  background: linear-gradient(to right, #a044ff, #6a3093);
+
+  border-radius: 6px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+[data-testid="stDecoration"] {
+  display: none !important;
+}
+.main {
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441a5);
+  background: linear-gradient(to right, #2a0845, #6441a5);
+}
+.stSlider {
+  max-width: 50px;
+  margin: auto;
+}
+.element-container > .stMarkdown > [data-testid="stMarkdownContainer"] {
+  text-align: center;
+}
+.row-widget.stCheckbox {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+[data-testid="stImage"] {
+  margin: auto;
+}
+footer {
+  display: none !important;
+}
